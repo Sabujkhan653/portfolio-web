@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+
+}
+header{
+    background-color: skyblue;
+}
+nav{
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 0;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+}
+.common-btn{
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.outline-btn{
+    background-color: transparent;
+    color: orange;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+    
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.highlight{
+    color: red;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* hero section */
+.hero-left h2{
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.hero-left-p1{
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+.hero-left-p2{
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 600;
+    text-align: justify;
+}
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9eae4;
+}
+.hero-parent img{
+    height: 500px;
+    width: 500px;
+    max-width: 100%;
+}
+.hero-left-btn-parent{
+    margin-bottom: 15px;
+}
+/* about section */
+.about-parent{
+    background-color: #e9eae4;
+    padding: 80px 0;
+    margin:70px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    
+}
+.about-parent p{
+    margin: 20px 0;
+}
+.about-box-parent .box{
+    background-color: rgb(194, 188, 178);
+    padding: 5px;
+    border-radius: 1px;
+    text-align: center;
+    flex: 1;
+    gap: 10px;
+}
