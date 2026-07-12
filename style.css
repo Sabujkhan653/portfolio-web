@@ -312,7 +312,8 @@ footer form{
     gap: 15px;
 }
 
-footer form input{
+footer form input,
+footer form textarea{
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
