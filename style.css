@@ -1156,3 +1156,10 @@ footer form textarea::placeholder {
 
 }
 
+.section-description{
+    padding-bottom: 40px;
+}
+footer{
+    padding-top: 40px;
+}
+
